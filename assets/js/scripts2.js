@@ -23,10 +23,3 @@ checkBtns.addEventListener('click', (e) => {
         document.getElementById('stickers-result').innerText = "Llevas: 0 stickers."
     }
 })
-
-(function titleScroller(text) {
-    document.title = text;
-    setTimeout(function () {
-        titleScroller(text.substr(1) + text.substr(0, 1));
-    }, 500);
-}(" Desafio 2 | Parte 2 "));
